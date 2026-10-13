@@ -13,3 +13,7 @@ Programação Web.
 - HTML
 - Git
 - GitHub
+
+## Captura de tela
+
+![Página HTML com propriedade alterada nas DevTools](devtools.png)
