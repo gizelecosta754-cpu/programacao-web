@@ -16,4 +16,5 @@ Programação Web.
 
 ## Captura de tela
 
-![Página HTML com propriedade alterada nas DevTools](devtools.png)
+![Formulário de contato]
+(https://github.com/gizelecosta754-cpu/programacao-web/blob/main/Screenshot_2026-10-27-22-31-49-146_com.android.chrome.jpg)
