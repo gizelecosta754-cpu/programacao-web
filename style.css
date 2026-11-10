@@ -22,6 +22,34 @@ header {
 
 /* Conteúdo principal */
 main {
+    
+/* Organização geral com Grid Layout */
+body {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+    grid-template-areas:
+        "header header header"
+        ". main ."
+        "footer footer footer";
+    min-height: 100vh;
+}
+
+/* Posicionamento dos elementos */
+header {
+    grid-area: header;
+    grid-column: 1 / -1;
+}
+
+main {
+    grid-area: main;
+    grid-column: 2;
+}
+
+footer {
+    grid-area: footer;
+    grid-column: 1 / -1;
+}
+    
     max-width: 1000px;
     margin: 30px auto;
 }
