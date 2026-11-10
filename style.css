@@ -104,3 +104,25 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* Ajustes para celulares e tablets */
+@media (max-width: 600px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    }
+
+    header, main, footer {
+        grid-column: 1;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
